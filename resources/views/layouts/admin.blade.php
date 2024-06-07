@@ -27,7 +27,7 @@
     <div id="app">
 
         <header
-            class="navbar navbar-dark navbar-expand-lg sticky-top bg-light flex-md-nowrap justify-content-between p-2 shadow">
+            class="navbar navbar-dark navbar-expand-lg sticky-top bg-dark flex-md-nowrap justify-content-between p-2 shadow">
             <a class="navbar-brand col-md-3 col-lg-2 me-0 px-3" href="/">BoolMazon</a>
             {{-- <input class="form-control form-control-dark w-100" type="text" placeholder="Search" aria-label="Search"> --}}
             <div class="hstack gap-2">
