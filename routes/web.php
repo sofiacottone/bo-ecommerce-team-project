@@ -25,7 +25,11 @@ Route::middleware((['auth', 'verified']))
     ->prefix('admin')
     ->group(function () {
         Route::get('/dashboard', [DashboardController::class, 'index'])->name('dashboard');
+<<<<<<< HEAD
         Route::resource('products', ProductController::class);
+=======
+        Route::resource('orders',OrderController::class);
+>>>>>>> 6e1179c7d92e654731e130552db9268b8da5ef23
     });
 
 Route::middleware('auth')->group(function () {
