@@ -3,7 +3,11 @@
 use App\Http\Controllers\ProfileController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\Admin\DashboardController;
+<<<<<<< HEAD
 use App\Http\Controllers\Admin\UserController;
+=======
+use App\Http\Controllers\Admin\ProductController;
+>>>>>>> main
 
 /*
 |--------------------------------------------------------------------------
@@ -25,7 +29,11 @@ Route::middleware((['auth', 'verified']))
     ->prefix('admin')
     ->group(function () {
         Route::get('/dashboard', [DashboardController::class, 'index'])->name('dashboard');
+<<<<<<< HEAD
         Route::resource('users', UserController::class);
+=======
+        Route::resource('products', ProductController::class);
+>>>>>>> main
     });
 
 Route::middleware('auth')->group(function () {

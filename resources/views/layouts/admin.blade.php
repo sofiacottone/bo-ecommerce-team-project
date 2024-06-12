@@ -28,7 +28,11 @@
 
         <header
             class="navbar navbar-dark navbar-expand-lg sticky-top bg-dark flex-md-nowrap justify-content-between p-2 shadow">
+<<<<<<< HEAD
             <a class="navbar-brand col-md-3 col-lg-2 me-0 px-3" href="/">Boolmazon</a>
+=======
+            <a class="navbar-brand col-md-3 col-lg-2 me-0 px-3" href="/">BoolMazon</a>
+>>>>>>> main
             {{-- <input class="form-control form-control-dark w-100" type="text" placeholder="Search" aria-label="Search"> --}}
             <div class="hstack gap-2">
                 <div class="navbar-nav me-2">
@@ -64,6 +68,7 @@
                                 </a>
                             </li>
                             <li class="nav-item">
+<<<<<<< HEAD
                                 <a class="nav-link text-white rounded-1 hstack justify-content-between {{ Route::currentRouteName() == 'admin.users.index' ? 'bg-secondary' : '' }}"
                                     href="{{ route('admin.users.index') }}">
                                     <span>
@@ -72,6 +77,15 @@
                                 </a>
                             </li>
 
+=======
+                                <a class="nav-link text-white rounded-1 hstack justify-content-between {{ Route::currentRouteName() == 'admin.products.index' ? 'bg-secondary' : '' }}"
+                                    href="{{ route('admin.products.index') }}">
+                                    <span>
+                                        <i class="fa-solid fa-list-check fa-lg fa-fw"></i> Products
+                                    </span>
+                                </a>
+                            </li>
+>>>>>>> main
                         </ul>
 
 
