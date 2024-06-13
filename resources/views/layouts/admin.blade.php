@@ -71,6 +71,14 @@
                                     </span>
                                 </a>
                             </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-white rounded-1 hstack justify-content-between {{ Route::currentRouteName() == 'admin.users.index' ? 'bg-secondary' : '' }}"
+                                    href="{{ route('admin.users.index') }}">
+                                    <span>
+                                        <i class="fa-solid fa-list-check fa-lg fa-fw"></i> Users
+                                    </span>
+                                </a>
+                            </li>
                         </ul>
 
 
